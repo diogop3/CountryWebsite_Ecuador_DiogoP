@@ -2,17 +2,43 @@
     display:flex;
 }
 
+#sidebar{
+  padding: 3px;
+  color: rgb(228, 219, 208);
+  text-align:center;
+  font-family: 'Times New Roman', Times, serif;
+  border-style: ridge;
+  align-items: center;
+  justify-content: center;
+  flex:1;
+  flex-direction: column;
+}
+
 #main{
   text-shadow: 2px 2px 5px rgb(0, 0, 0);
   color:bisque;
+  text-align: center;
   justify-content:center;
+  background-image:url("bkimgecu.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center;
+  padding: 100px;
+  background-clip: border-box;
   align-items:center;
   flex:3;
   flex-direction:column;
 }
+
+#main:hover{
+  transition: 0.5s;
+}
+
+
+
  
 body{
-  background-color:rgb(156, 156, 156);
+  background-color:rgb(77, 74, 74);
 }
 
 #body{
