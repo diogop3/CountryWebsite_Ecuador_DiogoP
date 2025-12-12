@@ -25,7 +25,7 @@
   background-size: cover;
   background-repeat:no-repeat;
   background-position: center;
-  padding: 250px;
+  padding: 300px;
   background-clip: border-box;
   align-items:center;
   flex:3;
@@ -37,6 +37,21 @@
 #main:hover{
   transition: 0.5s;
   border-bottom: 3px solid black;
+}
+
+#video{
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+#footer{
+  flex:1;
+  color:rgb(255, 255, 255);
+  font-size: 16px;
+  padding: 5px;
+  text-align:center;
+  font-family: "Lucida Console", "Courier New";
 }
 
 
@@ -55,7 +70,7 @@ nav{
 
 nav a{
   background-color:rgb(82, 71, 92);
-  color:rgb(255, 255, 255);
+  color:rgb(177, 176, 176);
   font-family: "Lucida Console", "Courier New";
   margin:0 50px 0 200px;
   padding: 50;
@@ -66,6 +81,8 @@ nav a{
 }
 
 nav a:hover {
+  background-color:rgb(177,176,176);
+  color:rgb(82,71,92);
   border-bottom: 3px solid black;
   transition: 0.5s;
 }
@@ -74,7 +91,6 @@ nav a:hover {
   background-color: #04AA6D;
   color: rgb(255, 255, 255);
   text-align: center;
-  text-decoration: none;
   padding: 5px;
   border-radius: 30px;
   display: inline-block;
