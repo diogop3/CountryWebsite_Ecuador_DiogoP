@@ -15,6 +15,7 @@
   border-radius: 30px;
 }
 
+
 #main{
   text-shadow: 3px 3px 6px rgb(0, 0, 0);
   color:rgb(192, 253, 255);
@@ -37,6 +38,52 @@
 #main:hover{
   transition: 0.5s;
   border-bottom: 3px solid black;
+}
+
+#main2{
+  flex:1;
+  text-shadow: 3px 3px 6px rgb(0, 0, 0);
+  color:rgb(192, 253, 255);
+  background-image:url("ecuador-landmark.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: center;
+  text-align: center;
+  padding: 300px;
+  border-radius: 30px;
+
+}
+
+#main2:hover{
+  border-bottom: 5px solid black;
+  transition: 0.5s;
+}
+
+div.landmarks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+div.landmark-item {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 180px;
+}
+
+div.landmark-item:hover {
+  border: 1px solid #777;
+}
+
+div.landmark-item img {
+  width: 100%;
+  height: auto;
+}
+
+div.landmark-item div.desc {
+  padding: 15px;
+  text-align: center;
 }
 
 #video{
